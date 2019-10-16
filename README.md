@@ -1,2 +1,26 @@
-# filepush-rs
-Simple library to upload files to https://filepush.co/ using Rust
+# transfer-rs
+
+
+Small Rust library to upload files to [filepush.co](https://filepush.co).
+I just edited the [transfer-rs](https://crates.io/crates/transfer-rs) library to point to filepush, as both use Curl to upload files.
+
+## Usage
+
+```rust
+extern crate transfer;
+use transfer::upload;
+
+fn main() {
+    match upload("Cargo.toml") {
+        Ok(url) => println!("{}", url),
+        Err(err) => panic!("Error: {}", err),
+    };
+}
+```
+
+A simple CLI application is provided in the [examples](examples/) directory.
+
+## Building
+
+- Install rustc using [RustUp](https://rustup.rs)
+- Run `cargo build --release`

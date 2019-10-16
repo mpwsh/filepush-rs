@@ -1,0 +1,20 @@
+[package]
+name = "filepush-rs"
+version = "0.1.0"
+description = "Simple library to upload files to https://filepush.co/"
+authors = ["Mariano Arellano <im@mariano.pw>"]
+keywords = ["filepush", "transfer", "upload", "curl upload","file transfer"]
+repository = "https://github.com/marianopw/transfer.rs"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+reqwest = "0.9.19"
+
+[dev-dependencies]
+clap = "2.33.0"
+
+[lib]
+name = "filepush"
+path = "src/lib.rs"
