@@ -1,6 +1,6 @@
 [package]
 name = "filepush-rs"
-version = "0.1.1"
+version = "0.1.2"
 description = "Simple library to upload files to https://filepush.co/"
 authors = ["Harsh Shandilya <msfjarvis@gmail.com>", "Mariano Arellano <im@mariano.pw>"]
 keywords = ["filepush", "transfer", "upload", "curl", "share"]
