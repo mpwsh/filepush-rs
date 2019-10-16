@@ -7,8 +7,8 @@ I just edited the [transfer-rs](https://crates.io/crates/transfer-rs) library to
 ## Usage
 
 ```rust
-extern crate transfer;
-use transfer::upload;
+extern crate filepush;
+use filepush::upload;
 
 fn main() {
     match upload("Cargo.toml") {
