@@ -2,11 +2,12 @@
 name = "filepush-rs"
 version = "0.1.0"
 description = "Simple library to upload files to https://filepush.co/"
-authors = ["Mariano Arellano <im@mariano.pw>"]
+authors = ["Harsh Shandilya <msfjarvis@gmail.com>", "Mariano Arellano <im@mariano.pw>"]
 keywords = ["filepush", "transfer", "upload", "curl upload","file transfer"]
-repository = "https://github.com/marianopw/transfer.rs"
+repository = "https://github.com/marianopw/filepush-rs"
 license = "MIT/Apache-2.0"
 readme = "README.md"
+categories = ["api-bindings"]
 edition = "2018"
 
 [dependencies]
