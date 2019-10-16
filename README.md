@@ -1,4 +1,4 @@
-# transfer-rs
+# filepush-rs
 
 
 Small Rust library to upload files to [filepush.co](https://filepush.co).
