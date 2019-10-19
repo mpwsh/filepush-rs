@@ -30,9 +30,11 @@ A simple CLI application is provided in the [examples](examples/) directory.
 - Install rustc using [RustUp](https://rustup.rs)
 - Run `cargo build --release`
 
-## Example usage
-- cargo run --example cli_client -- -u yourfile
-- cargo run --example cli_client -- -d yourlink
+## Cli app usage from examples folder
+- `git clone https://github.com/marianopw/filepush-rs`
+- `cd filepush-rs`
+- `cargo run --example cli_client -- -u yourfile`
+- `cargo run --example cli_client -- -d yourlink`
 
 ## Credit
 Transfer-rs lib author is [Harsh Shandilya](https://github.com/msfjarvis)
