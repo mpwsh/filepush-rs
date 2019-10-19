@@ -2,9 +2,8 @@
 
 
 Small Rust library to upload and download files from/to [filepush.co](https://filepush.co).
-I forked the [transfer-rs](https://crates.io/crates/transfer-rs) library and added download capabilities as well.
-As both use Curl to upload files, so 
-Transfer-rs lib author is [Harsh Shandilya](https://github.com/msfjarvis)
+
+I forked the [transfer-rs](https://crates.io/crates/transfer-rs) library and added download capabilities.
 
 ## Usage
 
@@ -34,3 +33,6 @@ A simple CLI application is provided in the [examples](examples/) directory.
 ## Example usage
 - cargo run --example cli_client -- -u yourfile
 - cargo run --example cli_client -- -d yourlink
+
+## Credit
+Transfer-rs lib author is [Harsh Shandilya](https://github.com/msfjarvis)
